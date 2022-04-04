@@ -1,4 +1,4 @@
-let n = 7
+let n = 5
 let clockwise = true
 let answer = new Array(n)
 for(let i=0;i<n;i++){
