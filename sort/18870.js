@@ -18,7 +18,7 @@ for(let i=0;i<N;i++){
     answer[nums[i]] = rank
     memory = nums[i]
 }
-
+console.log(answer)
 let result = []
 for(let i=0;i<compare_nums.length;i++){
     result.push(answer[compare_nums[i]])

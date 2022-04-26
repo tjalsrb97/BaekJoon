@@ -15,7 +15,7 @@ for(let i=1;i<N;i++){
         }
 
     }
-    // console.log(memo, values)
+    console.log(memo, values)
     memo[i] = Math.max(...values)
 }
 console.log(Math.max(...memo))
